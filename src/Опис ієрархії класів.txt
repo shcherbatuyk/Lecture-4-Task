@@ -1,0 +1,7 @@
+Створений пакет animals, в якому є абстрактний клас Animal (філди: speciesName, weight, name) (методи: getInfo() та makeSound())
+Від Animal наслідуються класи:
+Cats (має свій філд tailLength, оверрайд makeSound() та методи contact(Dogs), contact(Cats), contact(), в кожному з яких веде себе по-різному) 
+та Dogs (має свій філд pawsLength, два різних конструктори (з pawsLength та без) і оверрайд для makeSound()) 
+
+Також є інтерфейс Nameable, що містить в собі не реалізований метод sayHello()
+Клас Human (філди firstName, lastName) реалізує метод sayHello() інтерфейсу Nameable
